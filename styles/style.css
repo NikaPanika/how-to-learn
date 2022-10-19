@@ -10,9 +10,15 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  background-color: #f2f2f2;
+  border: 1px solid red;
+  overflow: hidden;
+
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +34,78 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+  left: 64px;
+  top: 30px;
+  border: 1px solid red;
+}
+.logo_place_header {
+  position: absolute;
+  z-index: 5;
+}
+.header__title{
+  margin: 0%;
+  margin-left: 64px;
+  align-self: center ;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  border: 1px solid red;
+  z-index: 2;
+}
+.header__subtitle{
+  margin: 0;
+  font-family:  'Helvetica Neue', 'Arial', sans-serif;
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+  line-height: 25px;
+  z-index: 2;
+}
+.header__link{
+  color: #2f80ed;
+  margin: 0;
+  font-family:  'Helvetica Neue', 'Arial', sans-serif;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid red;
+  line-height: 25px;
+}
+.header__main-illustration{
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  background-image: url(../images/header-image.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid red;
+  bottom: 0;
+  right: 0;
+}
+.header__square-pic{
+  position: absolute;
+  margin: 0;
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  border: 1px solid red;
 }
