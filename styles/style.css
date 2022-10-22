@@ -331,13 +331,13 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer{
+.logo_place_footer {
   margin: 0;
   width: 228px;
   height: 32px;
 }
 
-.footer__author{
+.footer__author {
   margin: 0;
   color: white;
   padding-top: 18px;
@@ -348,7 +348,7 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-.footer__column-heading{
+.footer__column-heading {
   margin: 0;
   margin-bottom: 20px;
   color: white;
@@ -357,7 +357,8 @@
   font-weight: 600;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
-.footer__column-links{
+
+.footer__column-links {
   margin: 0;
   color: white;
   padding-bottom: 16px;
@@ -369,14 +370,16 @@
   flex-direction: column;
 
 }
-.footer__column-link{
+
+.footer__column-link {
   margin: 0;
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
-.footer__social-icon{
+
+.footer__social-icon {
   margin: 0;
   height: 16px;
   width: 16px;
