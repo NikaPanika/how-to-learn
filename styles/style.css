@@ -364,9 +364,6 @@
   font-size: 18px;
   font-weight: normal;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  display: flex;
-  flex-direction: column;
-
 }
 
 .footer__column-link {
