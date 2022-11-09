@@ -1,0 +1,12 @@
+.header__link {
+  color: #2f80ed;
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
